@@ -46,6 +46,7 @@ These postmortems describe bugs from real production systems I work on. Company-
 | Date | Title | Stack |
 |---|---|---|
 | 2026-05-18 | [TanStack Table input-instability render loop freezing data tables](./2026-05-18-tanstack-table-render-loop.md) | Next.js 16 · React 19 · TanStack Query v5 · TanStack Table v8 |
+| 2026-03-15 | [Silent Spring `@Transactional` rollback dropped audit rows from a cron-driven workflow](./2026-03-15-spring-transactional-silent-rollback.md) | Java 17 · Spring Boot 3.5 · Hibernate 6 · multi-datasource · ShedLock |
 
 ---
 
