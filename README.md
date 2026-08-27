@@ -45,6 +45,7 @@ These postmortems describe bugs from real production systems I work on. Company-
 
 | Date | Title | Stack |
 |---|---|---|
+| 2026-08-26 | [The E2E test that succeeded and failed at the same time — a stale Vite dependency pre-bundle cache](./2026-08-26-e2e-stale-vite-dependency-cache.md) | Vue 3 + Vite (pnpm workspace) · Playwright E2E · Docker Compose |
 | 2026-06-28 | [Production sitemap silently frozen — pillar pages never reached `sitemap.xml`](./2026-06-28-sitemap-stale-pnpm-postbuild.md) | Next.js 16 · pnpm 11 · next-sitemap · Vercel |
 | 2026-06-07 | [The "enable audio" button that errored instead of unlocking — iOS/Safari autoplay, three layers deep](./2026-06-07-ios-safari-audio-unlock.md) | Next.js 16 · React 19 · cloud TTS · HTMLAudioElement · iOS WebKit autoplay |
 | 2026-05-18 | [TanStack Table input-instability render loop freezing data tables](./2026-05-18-tanstack-table-render-loop.md) | Next.js 16 · React 19 · TanStack Query v5 · TanStack Table v8 |
